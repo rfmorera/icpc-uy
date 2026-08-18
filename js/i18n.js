@@ -74,7 +74,6 @@
       'contact.eyebrow': 'Entrená con nosotros',
       'contact.h2': 'Hablemos',
       'contact.p': '¿Sos estudiante y querés venir a entrenar a ICPC House? ¿Tu empresa quiere sumarse como sponsor? ¿Sos docente o referente y querés colaborar con la comunidad? Escribinos.',
-      'contact.cardH3': 'Contacto',
 
       'footer.note': 'Comunidad de programación competitiva del Uruguay. No es un sitio oficial de ICPC Global.'
     },
@@ -149,7 +148,6 @@
       'contact.eyebrow': 'Train with us',
       'contact.h2': 'Let’s talk',
       'contact.p': 'Are you a student who wants to come train at ICPC House? Does your company want to join as a sponsor? Are you a teacher or community leader who wants to collaborate? Write to us.',
-      'contact.cardH3': 'Contact',
 
       'footer.note': 'Uruguay’s competitive programming community. Not an official ICPC Global site.'
     }
