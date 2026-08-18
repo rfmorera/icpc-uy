@@ -56,40 +56,13 @@
 
     <!-- HERO -->
     <section class="hero" id="inicio">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow" data-i18n="hero.eyebrow">Uruguay’s competitive programming community</div>
-          <h1 data-i18n-html="hero.h1">Uruguay has what it takes to reach an <span class="accent">ICPC World Finals</span></h1>
-          <p class="hero-lede" data-i18n="hero.lede">ICPC Uruguay brings together students, universities, and companies driving competitive programming in the country. We train, compete in the Latin American Regional, and work to get a Uruguayan team to the International Collegiate Programming Contest World Finals for the first time.</p>
-          <div class="hero-actions">
-            <a href="#icpc-house" class="btn btn-primary" data-i18n="hero.btnPrimary">Discover ICPC House</a>
-            <a href="#contacto" class="btn btn-outline" data-i18n="hero.btnOutline">Train with us</a>
-          </div>
-
-          <div class="hero-stats">
-            <div class="stat">
-              <div class="num">3</div>
-              <div class="label" data-i18n="hero.stat1">Members per team</div>
-            </div>
-            <div class="stat">
-              <div class="num">1</div>
-              <div class="label" data-i18n="hero.stat2">Computer per team</div>
-            </div>
-            <div class="stat">
-              <div class="num">5h</div>
-              <div class="label" data-i18n="hero.stat3">Non-stop marathon</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <span class="tag" data-i18n="hero.cardTag">New initiative</span>
-          <h3>ICPC House 🏠</h3>
-          <p data-i18n="hero.cardP">A coder house designed for Uruguay’s top competitive programmers to train together, every day, under the same roof.</p>
-          <div class="deadline">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-            <span data-i18n="hero.cardDeadline">Intensive training through November 7th</span>
-          </div>
+      <div class="container hero-inner">
+        <div class="eyebrow" data-i18n="hero.eyebrow">Uruguay’s competitive programming community</div>
+        <h1 data-i18n-html="hero.h1">Uruguay has what it takes to reach an <span class="accent">ICPC World Finals</span></h1>
+        <p class="hero-lede" data-i18n="hero.lede">ICPC Uruguay brings together students, universities, and companies driving competitive programming in the country. We train, compete in the Latin American Regional, and work to get a Uruguayan team to the International Collegiate Programming Contest World Finals for the first time.</p>
+        <div class="hero-actions">
+          <a href="#icpc-house" class="btn btn-primary" data-i18n="hero.btnPrimary">Discover ICPC House</a>
+          <a href="#contacto" class="btn btn-outline" data-i18n="hero.btnOutline">Train with us</a>
         </div>
       </div>
     </section>
@@ -101,7 +74,6 @@
           <div class="eyebrow" data-i18n="about.eyebrow">About the contest</div>
           <h2 data-i18n="about.h2">What is ICPC?</h2>
           <p data-i18n-html="about.p1">The <strong>International Collegiate Programming Contest (ICPC)</strong> is the oldest, largest, and most prestigious university programming competition in the world. Teams of three students, with a single computer, have five hours to solve as many algorithmic problems as possible: data structures, math, graphs, and pure logic under pressure.</p>
-          <p data-i18n-html="about.p2">Uruguay competes within the <strong>South America South</strong> site of the Latin American Regional, alongside teams from Argentina and Paraguay, a path that — as in the rest of the continent — leads to the World Finals.</p>
         </div>
 
         <div class="path">
@@ -110,7 +82,7 @@
             <h4 data-i18n="about.path1.h4">Local qualifier</h4>
             <p data-i18n="about.path1.p">University tournaments and training sessions to form teams.</p>
           </div>
-          <div class="path-step is-current">
+          <div class="path-step">
             <div class="n">02</div>
             <h4 data-i18n="about.path2.h4">Latin American Regional</h4>
             <p data-i18n="about.path2.p">Uruguay competes alongside Argentina and Paraguay at the South America South site.</p>
@@ -120,7 +92,7 @@
             <h4 data-i18n="about.path3.h4">Continental stage</h4>
             <p data-i18n="about.path3.p">The region’s best teams advance to an ICPC continental stage.</p>
           </div>
-          <div class="path-step">
+          <div class="path-step is-goal">
             <div class="n">04</div>
             <h4 data-i18n="about.path4.h4">World Finals</h4>
             <p data-i18n="about.path4.p">The goal: a Uruguayan team competing among the best in the world.</p>
@@ -132,19 +104,11 @@
     <!-- ICPC HOUSE -->
     <section class="section" id="icpc-house">
       <div class="container">
-        <div class="house-banner">
-          <div>
-            <div class="countdown-label" data-i18n="house.bannerLabel">🏠 ICPC House — live-in training</div>
-            <p style="margin:4px 0 0;" data-i18n-html="house.bannerP">Running through <strong>November 7th</strong>, ahead of the ICPC Latin American Regional.</p>
-          </div>
-          <a href="#contacto" class="btn btn-sky" data-i18n="house.bannerBtn">I want to train</a>
-        </div>
-
         <div class="section-head">
           <div class="eyebrow" data-i18n="house.eyebrow">The initiative</div>
           <h2 data-i18n="house.h2">A house for Uruguay to reach its first World Finals</h2>
           <p data-i18n-html="house.p1"><strong>ICPC House</strong> is a coder house: we bring Uruguay’s top competitive programmers together under one roof to train full-time through November 7th. Nothing replaces hours of team practice, solving problems together, and living alongside other high-level competitors — that’s exactly what ICPC House aims to create.</p>
-          <p data-i18n-html="house.p2">The goal is concrete: bring a Uruguayan team to an <strong>ICPC World Finals</strong> for the first time.</p>
+          <p class="goal-callout" data-i18n-html="house.p2">The goal is concrete: bring a Uruguayan team to an <strong>ICPC World Finals</strong> for the first time.</p>
         </div>
 
         <div class="funding-goal">
@@ -153,48 +117,6 @@
             <div class="funding-goal-label" data-i18n="house.goalLabel">Fundraising goal</div>
             <div class="funding-goal-amount" data-i18n="house.goalAmount">USD 8,000</div>
             <p data-i18n="house.goalP">To cover the house’s rental costs for the entire training period.</p>
-          </div>
-        </div>
-
-        <div class="house-features">
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>
-            </div>
-            <h3 data-i18n="house.feature1.h3">Focus and community living</h3>
-            <p data-i18n="house.feature1.p">Shared housing to train without distractions, with a daily team-practice routine.</p>
-          </div>
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13M9 9l12-2M6 21a3 3 0 100-6 3 3 0 000 6zM18 19a3 3 0 100-6 3 3 0 000 6z"/></svg>
-            </div>
-            <h3 data-i18n="house.feature2.h3">Mentorship and marathons</h3>
-            <p data-i18n="house.feature2.p">Timed mock contests, problem reviews, and guidance from competitive programming mentors.</p>
-          </div>
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-            </div>
-            <h3 data-i18n="house.feature3.h3">World Finals goal</h3>
-            <p data-i18n="house.feature3.p">A training plan with a single aim: qualify the first Uruguayan team for an ICPC World Finals.</p>
-          </div>
-        </div>
-
-        <div class="house-steps">
-          <div class="house-step">
-            <div class="n">1</div>
-            <h4 data-i18n="house.step1.h4">Come train with us</h4>
-            <p data-i18n="house.step1.p">Bring your team (up to 3) to practice with us.</p>
-          </div>
-          <div class="house-step">
-            <div class="n">2</div>
-            <h4 data-i18n="house.step2.h4">Train at the house</h4>
-            <p data-i18n="house.step2.p">Intensive practice alongside the teams living in the house, through November 7th.</p>
-          </div>
-          <div class="house-step">
-            <div class="n">3</div>
-            <h4 data-i18n="house.step3.h4">Represent Uruguay</h4>
-            <p data-i18n="house.step3.p">Arrive at the ICPC Latin American Regional in the best possible shape.</p>
           </div>
         </div>
 
@@ -236,26 +158,6 @@
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
             </div>
             <h3 data-i18n="house.schedule.a5">Problem discussions</h3>
-          </div>
-        </div>
-
-        <h4 style="margin:44px 0 20px;" data-i18n="house.phaseHead">Path to November 7th</h4>
-
-        <div class="path path-3col">
-          <div class="path-step">
-            <div class="n">01</div>
-            <h4 data-i18n="house.phase1.h4">Foundations and team cohesion</h4>
-            <p data-i18n="house.phase1.p">Bringing everyone to a common level, building training routines, and settling into each team’s working dynamic.</p>
-          </div>
-          <div class="path-step">
-            <div class="n">02</div>
-            <h4 data-i18n="house.phase2.h4">Intensive training</h4>
-            <p data-i18n="house.phase2.p">Weekly marathons, deep problem reviews, and focused work on each team’s weak spots.</p>
-          </div>
-          <div class="path-step">
-            <div class="n">03</div>
-            <h4 data-i18n="house.phase3.h4">Final stretch</h4>
-            <p data-i18n="house.phase3.p">Real-pace competition simulations and strategy adjustments, with sights set on November 7th and the Latin American Regional.</p>
           </div>
         </div>
 
