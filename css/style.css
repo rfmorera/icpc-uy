@@ -91,9 +91,6 @@ p { color: var(--text-dim); margin: 0 0 1em; }
   border-top: 1px solid var(--border);
 }
 
-/* Seccion sin titulo propio: no necesita el aire de una seccion completa. */
-.section--tight { padding: 60px 0; }
-
 .section-head {
   max-width: 640px;
   margin: 0 0 48px;
@@ -307,12 +304,12 @@ nav.main-nav a.highlight {
   align-items: center;
   padding: 128px 0 72px;
   --photo: url("../assets/training-camp.jpg");
-  --photo-opacity: .10;
+  --photo-opacity: .30;
 }
 
 #resultados {
   --photo: url("../assets/equipo.jpg");
-  --photo-opacity: .14;
+  --photo-opacity: .38;
 }
 
 .hero-inner { text-align: center; }
@@ -457,28 +454,21 @@ nav.main-nav a.highlight {
 }
 
 .funding-goal {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
   padding: 26px 30px;
   border-radius: var(--radius);
   border: 1px solid rgba(255, 204, 51, 0.35);
   background: rgba(255, 204, 51, 0.06);
-  margin: 32px 0 40px;
+  margin: 40px 0 0;
 }
 
-.funding-goal-icon {
-  font-size: 1.7rem;
-  width: 56px; height: 56px;
-  flex-shrink: 0;
-  border-radius: 14px;
-  background: rgba(255, 204, 51, 0.14);
-  display: grid;
-  place-items: center;
+.funding-goal-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
-.funding-goal-body { flex: 1; min-width: 200px; }
+.funding-goal-icon { font-size: 1.25rem; line-height: 1; }
 
 .funding-goal-label {
   font-family: var(--font-head);
@@ -487,18 +477,40 @@ nav.main-nav a.highlight {
   letter-spacing: .08em;
   text-transform: uppercase;
   color: var(--gold-strong);
-  margin-bottom: 4px;
 }
 
-.funding-goal-amount {
+/* El porcentaje se empuja al extremo opuesto del rotulo. */
+.funding-goal-pct {
+  margin-left: auto;
   font-family: var(--font-head);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text);
-  margin-bottom: 6px;
+  color: var(--gold-strong);
+  line-height: 1;
 }
 
-.funding-goal-body p { margin: 0; max-width: 48ch; }
+.progress {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-strong));
+  transition: width .6s cubic-bezier(.65, 0, .35, 1);
+}
+
+.funding-goal-amounts {
+  margin-top: 12px;
+  font-family: var(--font-head);
+  font-weight: 600;
+  color: var(--text);
+}
+
+.funding-goal p { margin: 6px 0 0; font-size: .92rem; }
 
 .house-driver {
   display: flex;

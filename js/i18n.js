@@ -3,6 +3,11 @@
 (function () {
   var STORAGE_KEY = 'icpc-lang';
 
+  // Recaudacion. Cuando entra plata se toca SOLO esta linea: el porcentaje,
+  // el ancho de la barra y los textos en ES/EN se derivan de aca.
+  var RAISED = 0;
+  var GOAL = 8000;
+
   var translations = {
     es: {
       'meta.title': 'ICPC Uruguay — Rumbo a una Final Mundial',
@@ -52,7 +57,8 @@
       'house.schedule.a5': 'Debates de problemas',
       'house.driverP': '<strong>ICPC House</strong> nació de una idea de <strong>Antigravity Capital</strong>, que hoy acompaña a los mejores talentos de programación competitiva de Uruguay en su camino hacia una Final Mundial de ICPC.',
       'house.goalLabel': 'Objetivo de recaudación',
-      'house.goalAmount': 'USD 8.000',
+      'house.goalProgress': 'USD {raised} recaudados de la meta de USD {goal}',
+      'house.goalPct': '{pct}%',
       'house.goalP': 'Para cubrir los gastos de alquiler de la casa durante todo el período de entrenamiento.',
 
       'results.eyebrow': 'Trayectoria',
@@ -126,7 +132,8 @@
       'house.schedule.a5': 'Problem discussions',
       'house.driverP': '<strong>ICPC House</strong> grew out of an idea from <strong>Antigravity Capital</strong>, which now backs Uruguay’s top competitive programming talent on their way to an ICPC World Finals.',
       'house.goalLabel': 'Fundraising goal',
-      'house.goalAmount': 'USD 8,000',
+      'house.goalProgress': 'USD {raised} raised of the USD {goal} goal',
+      'house.goalPct': '{pct}%',
       'house.goalP': 'To cover the house’s rental costs for the entire training period.',
 
       'results.eyebrow': 'Track record',
@@ -170,16 +177,25 @@
   function applyLang(lang) {
     var dict = translations[lang] || translations.en;
 
+    var nf = new Intl.NumberFormat(lang === 'en' ? 'en-US' : 'es-UY');
+    var pct = GOAL > 0 ? Math.max(0, Math.min(100, Math.round(RAISED / GOAL * 100))) : 0;
+    function fill(value) {
+      return value
+        .replace('{raised}', nf.format(RAISED))
+        .replace('{goal}', nf.format(GOAL))
+        .replace('{pct}', pct);
+    }
+
     document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'es-UY');
 
     document.querySelectorAll('[data-i18n]').forEach(function (el) {
       var key = el.getAttribute('data-i18n');
-      if (dict[key] !== undefined) el.textContent = dict[key];
+      if (dict[key] !== undefined) el.textContent = fill(dict[key]);
     });
 
     document.querySelectorAll('[data-i18n-html]').forEach(function (el) {
       var key = el.getAttribute('data-i18n-html');
-      if (dict[key] !== undefined) el.innerHTML = dict[key];
+      if (dict[key] !== undefined) el.innerHTML = fill(dict[key]);
     });
 
     document.querySelectorAll('[data-i18n-attr-aria-label]').forEach(function (el) {
@@ -198,6 +214,12 @@
     if (ogTitleEl && dict['og.title']) ogTitleEl.setAttribute('content', dict['og.title']);
     var ogDescEl = document.getElementById('meta-og-description');
     if (ogDescEl && dict['og.description']) ogDescEl.setAttribute('content', dict['og.description']);
+
+    var bar = document.getElementById('funding-bar');
+    if (bar) {
+      bar.style.width = pct + '%';
+      bar.parentNode.setAttribute('aria-valuenow', pct);
+    }
 
     document.querySelectorAll('[data-lang-option]').forEach(function (el) {
       el.classList.toggle('is-active', el.getAttribute('data-lang-option') === lang);
