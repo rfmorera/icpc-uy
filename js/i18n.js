@@ -219,16 +219,16 @@
 
     var browserLangs = navigator.languages && navigator.languages.length
       ? navigator.languages
-      : [navigator.language || navigator.userLanguage || 'es'];
+      : [navigator.language || navigator.userLanguage || 'en'];
 
     for (var i = 0; i < browserLangs.length; i++) {
-      if (/^en/i.test(browserLangs[i])) return 'en';
+      if (/^es/i.test(browserLangs[i])) return 'es';
     }
-    return 'es';
+    return 'en';
   }
 
   function applyLang(lang) {
-    var dict = translations[lang] || translations.es;
+    var dict = translations[lang] || translations.en;
 
     document.documentElement.setAttribute('lang', lang === 'en' ? 'en' : 'es-UY');
 
