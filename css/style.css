@@ -281,7 +281,7 @@ nav.main-nav a.highlight {
 .has-photo::before {
   background-image: var(--photo);
   background-size: cover;
-  background-position: center;
+  background-position: var(--photo-position, center);
   opacity: var(--photo-opacity, .12);
 }
 
@@ -310,6 +310,8 @@ nav.main-nav a.highlight {
 #resultados {
   --photo: url("../assets/equipo.jpg");
   --photo-opacity: .38;
+  /* Encuadre alto: las caras estan en la franja superior de la foto. */
+  --photo-position: center 25%;
 }
 
 .hero-inner { text-align: center; }
