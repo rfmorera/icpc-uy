@@ -41,7 +41,9 @@
       <div class="header-cta">
         <a href="#icpc-house" class="btn btn-primary" data-i18n="header.cta">Conocé ICPC House</a>
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / Cambiar idioma">
-          <span data-lang-option="es">ES</span><span class="sep">|</span><span data-lang-option="en">EN</span>
+          <span class="lang-thumb" aria-hidden="true"></span>
+          <span class="lang-option" data-lang-option="es">ES</span>
+          <span class="lang-option" data-lang-option="en">EN</span>
         </button>
         <button class="nav-toggle" id="nav-toggle" data-i18n-attr-aria-label="header.toggleAria" aria-label="Abrir menú" aria-expanded="false">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
@@ -167,6 +169,15 @@
           </p>
         </div>
 
+        <div class="funding-goal">
+          <div class="funding-goal-icon" aria-hidden="true">🎯</div>
+          <div class="funding-goal-body">
+            <div class="funding-goal-label" data-i18n="house.goalLabel">Objetivo de recaudación</div>
+            <div class="funding-goal-amount" data-i18n="house.goalAmount">USD 8.000</div>
+            <p data-i18n="house.goalP">Para cubrir los gastos de alquiler de la casa durante todo el período de entrenamiento.</p>
+          </div>
+        </div>
+
         <div class="house-features">
           <div class="feature-card">
             <div class="icon">
@@ -210,10 +221,10 @@
         </div>
 
         <div class="house-driver">
-          <span class="driver-logo">antigravity.capital</span>
+          <a class="driver-logo" href="https://antigravity.capital" target="_blank" rel="noopener">antigravity.capital</a>
           <p style="margin:0;" data-i18n-html="house.driverP">
-            <strong>ICPC House</strong> es una iniciativa impulsada por <strong>Antigravity Capital</strong>,
-            que apoya a los mejores talentos de programación competitiva de Uruguay en su camino hacia una
+            <strong>ICPC House</strong> nació de una idea de <strong>Antigravity Capital</strong>, que hoy
+            acompaña a los mejores talentos de programación competitiva de Uruguay en su camino hacia una
             Final Mundial de ICPC.
           </p>
         </div>
@@ -272,7 +283,7 @@
 
         <div class="sponsor-tiers">
           <div class="sponsor-main">
-            <span class="driver-logo">antigravity.capital</span>
+            <a class="driver-logo" href="https://antigravity.capital" target="_blank" rel="noopener">antigravity.capital</a>
             <div>
               <h4 style="margin-bottom:4px;" data-i18n="sponsors.mainH4">Impulsor principal de ICPC House</h4>
               <p style="margin:0;" data-i18n="sponsors.mainP">Antigravity Capital respalda la casa de entrenamiento que preparará al primer equipo uruguayo rumbo a una Final Mundial de ICPC.</p>

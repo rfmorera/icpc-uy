@@ -63,7 +63,10 @@
       'house.step2.p': 'Convivencia y práctica intensiva junto a otros equipos, hasta el 7 de noviembre.',
       'house.step3.h4': 'Representá a Uruguay',
       'house.step3.p': 'Llegá con el mejor nivel posible a la Regional Latinoamericana de ICPC.',
-      'house.driverP': '<strong>ICPC House</strong> es una iniciativa impulsada por <strong>Antigravity Capital</strong>, que apoya a los mejores talentos de programación competitiva de Uruguay en su camino hacia una Final Mundial de ICPC.',
+      'house.driverP': '<strong>ICPC House</strong> nació de una idea de <strong>Antigravity Capital</strong>, que hoy acompaña a los mejores talentos de programación competitiva de Uruguay en su camino hacia una Final Mundial de ICPC.',
+      'house.goalLabel': 'Objetivo de recaudación',
+      'house.goalAmount': 'USD 8.000',
+      'house.goalP': 'Para cubrir los gastos de alquiler de la casa durante todo el período de entrenamiento.',
 
       'results.eyebrow': 'Trayectoria',
       'results.h2': 'Uruguay en la Regional Latinoamericana',
@@ -149,7 +152,10 @@
       'house.step2.p': 'Live-in, intensive practice alongside other teams, through November 7th.',
       'house.step3.h4': 'Represent Uruguay',
       'house.step3.p': 'Arrive at the ICPC Latin American Regional at your best level.',
-      'house.driverP': '<strong>ICPC House</strong> is an initiative driven by <strong>Antigravity Capital</strong>, supporting Uruguay’s top competitive programming talent on their way to an ICPC World Finals.',
+      'house.driverP': '<strong>ICPC House</strong> grew out of an idea from <strong>Antigravity Capital</strong>, who now back Uruguay’s top competitive programming talent on their way to an ICPC World Finals.',
+      'house.goalLabel': 'Fundraising goal',
+      'house.goalAmount': 'USD 8,000',
+      'house.goalP': 'To cover the house’s rental costs for the entire training period.',
 
       'results.eyebrow': 'Track record',
       'results.h2': 'Uruguay at the Latin American Regional',
@@ -226,6 +232,9 @@
     document.querySelectorAll('[data-lang-option]').forEach(function (el) {
       el.classList.toggle('is-active', el.getAttribute('data-lang-option') === lang);
     });
+
+    var toggle = document.getElementById('lang-toggle');
+    if (toggle) toggle.setAttribute('data-active', lang);
 
     document.documentElement.setAttribute('data-lang', lang);
   }
