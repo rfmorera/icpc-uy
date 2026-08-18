@@ -388,6 +388,8 @@ nav.main-nav a.highlight {
   background: rgba(79, 180, 232, 0.08);
 }
 
+.path.path-3col { grid-template-columns: repeat(3, 1fr); }
+
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -651,6 +653,7 @@ footer {
   .hero-grid { grid-template-columns: 1fr; }
   .two-col { grid-template-columns: 1fr; }
   .path { grid-template-columns: repeat(2, 1fr); }
+  .path.path-3col { grid-template-columns: 1fr; }
   .house-features { grid-template-columns: 1fr; }
   .house-steps { grid-template-columns: 1fr; }
   .sponsor-grid { grid-template-columns: repeat(2, 1fr); }
