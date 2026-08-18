@@ -585,4 +585,7 @@ footer {
 
 @media (max-width: 560px) {
   .hero { padding-top: 140px; }
+  /* El CTA del header no entra junto al logo, el switch de idioma y el
+     hamburguesa. Se oculta: el mismo destino esta en el menu y en el hero. */
+  .header-cta .btn-primary { display: none; }
 }
