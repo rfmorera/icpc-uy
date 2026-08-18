@@ -463,6 +463,12 @@ nav.main-nav a.highlight {
   margin: 40px 0;
 }
 
+/* Variante para listas de actividades: se acomodan solas sin filas huérfanas */
+.house-features--auto {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  margin-top: 20px;
+}
+
 .feature-card {
   padding: 26px;
   border-radius: var(--radius);
