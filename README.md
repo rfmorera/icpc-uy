@@ -97,6 +97,6 @@ naranja — dejalo en "DNS only" — mientras se valida el dominio en GitHub.)
   mismo dominio con cualquier proveedor de email, o redirigirlo a un Gmail existente).
 - Cargar los logos reales de sponsors en `assets/` y reemplazar los "Tu empresa acá".
 - Sumar un formulario real de postulación a ICPC House (Google Forms/Tally es la opción más
-  rápida sin backend; se linkea desde los botones "Quiero postularme" / "Sumate al equipo").
+  rápida sin backend; se linkea desde los botones "Quiero entrenar" / "Entrená con nosotros").
 - Confirmar la fecha exacta de la Regional Latinoamericana 2026 y ajustar el texto de
   "hasta el 7 de noviembre" si cambia.

@@ -30,22 +30,22 @@
       </a>
 
       <nav class="main-nav" id="main-nav">
-        <a href="#inicio" data-i18n="nav.inicio">Inicio</a>
-        <a href="#sobre-icpc" data-i18n="nav.sobre">Sobre ICPC</a>
+        <a href="#inicio" data-i18n="nav.inicio">Home</a>
+        <a href="#sobre-icpc" data-i18n="nav.sobre">About ICPC</a>
         <a href="#icpc-house" class="highlight" data-i18n="nav.house">ICPC House</a>
-        <a href="#resultados" data-i18n="nav.resultados">Resultados</a>
-        <a href="#patrocinadores" data-i18n="nav.patrocinadores">Patrocinadores</a>
-        <a href="#contacto" data-i18n="nav.contacto">Contacto</a>
+        <a href="#resultados" data-i18n="nav.resultados">Results</a>
+        <a href="#patrocinadores" data-i18n="nav.patrocinadores">Sponsors</a>
+        <a href="#contacto" data-i18n="nav.contacto">Contact</a>
       </nav>
 
       <div class="header-cta">
-        <a href="#icpc-house" class="btn btn-primary" data-i18n="header.cta">Conocé ICPC House</a>
+        <a href="#icpc-house" class="btn btn-primary" data-i18n="header.cta">Meet ICPC House</a>
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language / Cambiar idioma">
           <span class="lang-thumb" aria-hidden="true"></span>
           <span class="lang-option" data-lang-option="es">ES</span>
           <span class="lang-option" data-lang-option="en">EN</span>
         </button>
-        <button class="nav-toggle" id="nav-toggle" data-i18n-attr-aria-label="header.toggleAria" aria-label="Abrir menú" aria-expanded="false">
+        <button class="nav-toggle" id="nav-toggle" data-i18n-attr-aria-label="header.toggleAria" aria-label="Open menu" aria-expanded="false">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
         </button>
       </div>
@@ -55,48 +55,14 @@
   <main>
 
     <!-- HERO -->
-    <section class="hero" id="inicio">
-      <div class="container hero-grid">
-        <div>
-          <div class="eyebrow" data-i18n="hero.eyebrow">Comunidad de programación competitiva del Uruguay</div>
-          <h1 data-i18n-html="hero.h1">Uruguay tiene con qué llegar a una <span class="accent">Final Mundial de ICPC</span></h1>
-          <p class="hero-lede" data-i18n="hero.lede">
-            ICPC Uruguay nuclea a estudiantes, universidades y empresas que impulsan la programación competitiva
-            en el país. Entrenamos, competimos en la Regional Latinoamericana y trabajamos para que un equipo
-            uruguayo llegue, por primera vez, a la Final Mundial del International Collegiate Programming Contest.
-          </p>
-          <div class="hero-actions">
-            <a href="#icpc-house" class="btn btn-primary" data-i18n="hero.btnPrimary">Descubrí ICPC House</a>
-            <a href="#contacto" class="btn btn-outline" data-i18n="hero.btnOutline">Sumate al equipo</a>
-          </div>
-
-          <div class="hero-stats">
-            <div class="stat">
-              <div class="num">3</div>
-              <div class="label" data-i18n="hero.stat1">Integrantes por equipo</div>
-            </div>
-            <div class="stat">
-              <div class="num">1</div>
-              <div class="label" data-i18n="hero.stat2">Computadora por equipo</div>
-            </div>
-            <div class="stat">
-              <div class="num">5h</div>
-              <div class="label" data-i18n="hero.stat3">De maratón sin parar</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-card">
-          <span class="tag" data-i18n="hero.cardTag">Nueva iniciativa</span>
-          <h3>ICPC House 🏠</h3>
-          <p data-i18n="hero.cardP">
-            Una coder house pensada para que los mejores programadores competitivos de Uruguay entrenen juntos,
-            todos los días, bajo el mismo techo.
-          </p>
-          <div class="deadline">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
-            <span data-i18n="hero.cardDeadline">Entrenamiento intensivo hasta el 7 de noviembre</span>
-          </div>
+    <section class="hero has-photo" id="inicio">
+      <div class="container hero-inner">
+        <div class="eyebrow" data-i18n="hero.eyebrow">Uruguay’s competitive programming community</div>
+        <h1 data-i18n-html="hero.h1">Uruguay has what it takes to reach an <span class="accent">ICPC World Finals</span></h1>
+        <p class="hero-lede" data-i18n="hero.lede">ICPC Uruguay brings together students, universities, and companies driving competitive programming in the country. We train, compete in the Latin American Regional, and work to get a Uruguayan team to the International Collegiate Programming Contest World Finals for the first time.</p>
+        <div class="hero-actions">
+          <a href="#icpc-house" class="btn btn-primary" data-i18n="hero.btnPrimary">Discover ICPC House</a>
+          <a href="#contacto" class="btn btn-outline" data-i18n="hero.btnOutline">Train with us</a>
         </div>
       </div>
     </section>
@@ -105,40 +71,31 @@
     <section class="section" id="sobre-icpc">
       <div class="container">
         <div class="section-head">
-          <div class="eyebrow" data-i18n="about.eyebrow">Sobre la competencia</div>
-          <h2 data-i18n="about.h2">¿Qué es el ICPC?</h2>
-          <p data-i18n-html="about.p1">
-            El <strong>International Collegiate Programming Contest (ICPC)</strong> es la competencia de programación
-            universitaria más antigua, grande y prestigiosa del mundo. Equipos de tres estudiantes, con una única
-            computadora, tienen cinco horas para resolver la mayor cantidad posible de problemas algorítmicos:
-            estructuras de datos, matemática, grafos y lógica pura bajo presión.
-          </p>
-          <p data-i18n-html="about.p2">
-            Uruguay compite dentro de la sede <strong>Sudamérica Sur</strong> de la Regional Latinoamericana, junto a
-            equipos de Argentina y Paraguay, camino que —como en el resto del continente— conduce a la Final Mundial.
-          </p>
+          <div class="eyebrow" data-i18n="about.eyebrow">About the contest</div>
+          <h2 data-i18n="about.h2">What is ICPC?</h2>
+          <p data-i18n-html="about.p1">The <strong>International Collegiate Programming Contest (ICPC)</strong> is the oldest, largest, and most prestigious university programming competition in the world. Teams of three students, with a single computer, have five hours to solve as many algorithmic problems as possible: data structures, math, graphs, and pure logic under pressure.</p>
         </div>
 
         <div class="path">
           <div class="path-step">
             <div class="n">01</div>
-            <h4 data-i18n="about.path1.h4">Clasificatorio local</h4>
-            <p data-i18n="about.path1.p">Torneos y entrenamientos universitarios para formar equipos.</p>
+            <h4 data-i18n="about.path1.h4">Local qualifier</h4>
+            <p data-i18n="about.path1.p">University tournaments and training sessions to form teams.</p>
           </div>
-          <div class="path-step is-current">
+          <div class="path-step">
             <div class="n">02</div>
-            <h4 data-i18n="about.path2.h4">Regional Latinoamericana</h4>
-            <p data-i18n="about.path2.p">Uruguay compite junto a Argentina y Paraguay en la sede Sudamérica Sur.</p>
+            <h4 data-i18n="about.path2.h4">Latin American Regional</h4>
+            <p data-i18n="about.path2.p">Uruguay competes alongside Argentina and Paraguay at the South America South site.</p>
           </div>
           <div class="path-step">
             <div class="n">03</div>
-            <h4 data-i18n="about.path3.h4">Instancia continental</h4>
-            <p data-i18n="about.path3.p">Los mejores equipos de la región avanzan a una instancia continental de ICPC.</p>
+            <h4 data-i18n="about.path3.h4">Continental stage</h4>
+            <p data-i18n="about.path3.p">The region’s best teams advance to an ICPC continental stage.</p>
           </div>
-          <div class="path-step">
+          <div class="path-step is-goal">
             <div class="n">04</div>
-            <h4 data-i18n="about.path4.h4">Final Mundial</h4>
-            <p data-i18n="about.path4.p">El objetivo: un equipo uruguayo compitiendo entre los mejores del planeta.</p>
+            <h4 data-i18n="about.path4.h4">World Finals</h4>
+            <p data-i18n="about.path4.p">The goal: a Uruguayan team competing among the best in the world.</p>
           </div>
         </div>
       </div>
@@ -147,152 +104,69 @@
     <!-- ICPC HOUSE -->
     <section class="section" id="icpc-house">
       <div class="container">
-        <div class="house-banner">
-          <div>
-            <div class="countdown-label" data-i18n="house.bannerLabel">🏠 ICPC House — entrenamiento en convivencia</div>
-            <p style="margin:4px 0 0;" data-i18n-html="house.bannerP">Funciona hasta el <strong>7 de noviembre</strong>, en la previa de la Regional Latinoamericana de ICPC.</p>
-          </div>
-          <a href="#contacto" class="btn btn-sky" data-i18n="house.bannerBtn">Quiero postularme</a>
-        </div>
-
         <div class="section-head">
-          <div class="eyebrow" data-i18n="house.eyebrow">La iniciativa</div>
-          <h2 data-i18n="house.h2">Una casa para que Uruguay llegue a su primera Final Mundial</h2>
-          <p data-i18n-html="house.p1">
-            <strong>ICPC House</strong> es una coder house: reunimos bajo un mismo techo a los programadores
-            competitivos más destacados de Uruguay para que entrenen juntos, a tiempo completo, hasta el
-            7 de noviembre. Nada reemplaza las horas de práctica en equipo, la resolución conjunta de problemas
-            y la convivencia con otros competidores de alto nivel — eso es exactamente lo que ICPC House busca crear.
-          </p>
-          <p data-i18n-html="house.p2">
-            El objetivo es concreto: llevar por primera vez a un equipo uruguayo a una <strong>Final Mundial de ICPC</strong>.
-          </p>
-        </div>
-
-        <div class="funding-goal">
-          <div class="funding-goal-icon" aria-hidden="true">🎯</div>
-          <div class="funding-goal-body">
-            <div class="funding-goal-label" data-i18n="house.goalLabel">Objetivo de recaudación</div>
-            <div class="funding-goal-amount" data-i18n="house.goalAmount">USD 8.000</div>
-            <p data-i18n="house.goalP">Para cubrir los gastos de alquiler de la casa durante todo el período de entrenamiento.</p>
-          </div>
-        </div>
-
-        <div class="house-features">
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9M5 10v10h14V10"/></svg>
-            </div>
-            <h3 data-i18n="house.feature1.h3">Convivencia y foco</h3>
-            <p data-i18n="house.feature1.p">Alojamiento compartido para entrenar sin distracciones, con rutina diaria de práctica en equipo.</p>
-          </div>
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18V5l12-2v13M9 9l12-2M6 21a3 3 0 100-6 3 3 0 000 6zM18 19a3 3 0 100-6 3 3 0 000 6z"/></svg>
-            </div>
-            <h3 data-i18n="house.feature2.h3">Mentorías y maratones</h3>
-            <p data-i18n="house.feature2.p">Simulacros cronometrados, revisión de problemas y acompañamiento de referentes de la programación competitiva.</p>
-          </div>
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-            </div>
-            <h3 data-i18n="house.feature3.h3">Objetivo mundial</h3>
-            <p data-i18n="house.feature3.p">Un plan de entrenamiento con una sola meta: clasificar al primer equipo uruguayo a una Final Mundial de ICPC.</p>
-          </div>
-        </div>
-
-        <div class="house-steps">
-          <div class="house-step">
-            <div class="n">1</div>
-            <h4 data-i18n="house.step1.h4">Postulá tu equipo</h4>
-            <p data-i18n="house.step1.p">Equipos de hasta 3 integrantes con experiencia en programación competitiva.</p>
-          </div>
-          <div class="house-step">
-            <div class="n">2</div>
-            <h4 data-i18n="house.step2.h4">Entrená en la casa</h4>
-            <p data-i18n="house.step2.p">Convivencia y práctica intensiva junto a otros equipos, hasta el 7 de noviembre.</p>
-          </div>
-          <div class="house-step">
-            <div class="n">3</div>
-            <h4 data-i18n="house.step3.h4">Representá a Uruguay</h4>
-            <p data-i18n="house.step3.p">Llegá con el mejor nivel posible a la Regional Latinoamericana de ICPC.</p>
-          </div>
+          <div class="eyebrow" data-i18n="house.eyebrow">The initiative</div>
+          <h2 data-i18n="house.h2">A house for Uruguay to reach its first World Finals</h2>
+          <p data-i18n-html="house.p1"><strong>ICPC House</strong> is a coder house: we bring Uruguay’s top competitive programmers together under one roof to train full-time through November 7th. Nothing replaces hours of team practice, solving problems together, and living alongside other high-level competitors — that’s exactly what ICPC House aims to create.</p>
+          <p class="goal-callout" data-i18n-html="house.p2">The goal is concrete: bring a Uruguayan team to an <strong>ICPC World Finals</strong> for the first time.</p>
         </div>
 
         <div class="section-head" style="margin-top:56px;">
-          <div class="eyebrow" data-i18n="house.plan.eyebrow">Cómo entrenamos</div>
-          <h3 data-i18n="house.plan.h3">Plan de entrenamiento</h3>
-          <p data-i18n="house.plan.p">Cada semana combina trabajo individual, entrenamiento en equipo y competencia bajo presión real.</p>
+          <div class="eyebrow" data-i18n="house.plan.eyebrow">How we train</div>
+          <h3 data-i18n="house.plan.h3">Training plan</h3>
+          <p data-i18n="house.plan.p">We train every day, combining individual work, team practice, and competing under real pressure.</p>
         </div>
 
-        <div class="house-features">
-          <div class="feature-card">
-            <div class="icon">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
-            </div>
-            <h3 data-i18n="house.schedule.weekday.h4">Lunes a viernes</h3>
-            <p data-i18n="house.schedule.weekday.p">Sesiones de teoría, estudio individual de algoritmos y estructuras de datos, y práctica en equipo sobre los temas de la semana.</p>
-          </div>
+        <h4 style="margin:44px 0 0;" data-i18n="house.scheduleHead">Monday to Sunday</h4>
+
+        <div class="house-features house-features--auto">
           <div class="feature-card">
             <div class="icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
             </div>
-            <h3 data-i18n="house.schedule.saturday.h4">Sábado</h3>
-            <p data-i18n="house.schedule.saturday.p">Maratón de 5 horas que simula las condiciones reales de un contest de ICPC: mismos problemas, mismo formato, misma presión.</p>
+            <h3 data-i18n="house.schedule.a1">Contest simulations</h3>
           </div>
           <div class="feature-card">
             <div class="icon">
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v16h16M8 16l3-4 3 3 5-7"/></svg>
             </div>
-            <h3 data-i18n="house.schedule.sunday.h4">Domingo</h3>
-            <p data-i18n="house.schedule.sunday.p">Upsolving: se resuelven los problemas pendientes del maratón y se revisan las soluciones en grupo.</p>
+            <h3 data-i18n="house.schedule.a2">Problem upsolving</h3>
           </div>
-        </div>
-
-        <h4 style="margin:44px 0 20px;" data-i18n="house.phaseHead">Camino hasta el 7 de noviembre</h4>
-
-        <div class="path path-3col">
-          <div class="path-step">
-            <div class="n">01</div>
-            <h4 data-i18n="house.phase1.h4">Fundamentos y cohesión de equipo</h4>
-            <p data-i18n="house.phase1.p">Nivelación de conocimientos, formación de rutinas de entrenamiento y consolidación de la dinámica de trabajo de cada equipo.</p>
+          <div class="feature-card">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+            </div>
+            <h3 data-i18n="house.schedule.a3">Theory study</h3>
           </div>
-          <div class="path-step">
-            <div class="n">02</div>
-            <h4 data-i18n="house.phase2.h4">Entrenamiento intensivo</h4>
-            <p data-i18n="house.phase2.p">Maratones semanales, revisión profunda de problemas y trabajo enfocado en los puntos débiles de cada equipo.</p>
+          <div class="feature-card">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4 12.5-12.5z"/></svg>
+            </div>
+            <h3 data-i18n="house.schedule.a4">Practice exercises</h3>
           </div>
-          <div class="path-step">
-            <div class="n">03</div>
-            <h4 data-i18n="house.phase3.h4">Recta final</h4>
-            <p data-i18n="house.phase3.p">Simulacros a ritmo de competencia real y ajustes de estrategia, con la mira puesta en el 7 de noviembre y la Regional Latinoamericana.</p>
+          <div class="feature-card">
+            <div class="icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+            </div>
+            <h3 data-i18n="house.schedule.a5">Problem discussions</h3>
           </div>
         </div>
 
         <div class="house-driver">
           <a class="driver-logo" href="https://antigravity.capital" target="_blank" rel="noopener">antigravity.capital</a>
-          <p style="margin:0;" data-i18n-html="house.driverP">
-            <strong>ICPC House</strong> nació de una idea de <strong>Antigravity Capital</strong>, que hoy
-            acompaña a los mejores talentos de programación competitiva de Uruguay en su camino hacia una
-            Final Mundial de ICPC.
-          </p>
+          <p style="margin:0;" data-i18n-html="house.driverP"><strong>ICPC House</strong> grew out of an idea from <strong>Antigravity Capital</strong>, which now backs Uruguay’s top competitive programming talent on their way to an ICPC World Finals.</p>
         </div>
       </div>
     </section>
 
     <!-- RESULTADOS -->
-    <section class="section" id="resultados">
+    <section class="section has-photo" id="resultados">
       <div class="container two-col">
         <div>
           <div class="section-head">
-            <div class="eyebrow" data-i18n="results.eyebrow">Trayectoria</div>
-            <h2 data-i18n="results.h2">Uruguay en la Regional Latinoamericana</h2>
-            <p data-i18n="results.p">
-              La programación competitiva viene creciendo en Uruguay de la mano de sus universidades. Cada año,
-              equipos uruguayos compiten en la Regional Latinoamericana de ICPC, sumando experiencia y buenos
-              resultados que marcan el camino hacia una clasificación mundial.
-            </p>
+            <div class="eyebrow" data-i18n="results.eyebrow">Track record</div>
+            <h2 data-i18n="results.h2">Uruguay at the Latin American Regional</h2>
+            <p data-i18n="results.p">Competitive programming has been growing in Uruguay alongside its universities. Every year, Uruguayan teams compete at the ICPC Latin American Regional, gaining experience and strong results that point the way toward qualifying for a World Finals.</p>
           </div>
         </div>
 
@@ -300,22 +174,15 @@
           <div class="timeline-item">
             <div class="year">2025</div>
             <div>
-              <p style="margin-bottom:0;" data-i18n="results.item1.p">
-                Un equipo de la Universidad ORT Uruguay se destacó en la Regional Latinoamericana de ICPC,
-                terminando entre los primeros puestos del ranking regional frente a cientos de equipos de todo
-                el continente.
-              </p>
-              <span class="badge" data-i18n="results.item1.badge">Mejor resultado histórico reciente</span>
+              <p style="margin-bottom:0;" data-i18n="results.item1.p">A team from Universidad ORT Uruguay stood out at the ICPC Latin American Regional, finishing among the top spots in the regional ranking against hundreds of teams from across the continent.</p>
+              <span class="badge" data-i18n="results.item1.badge">Best recent result</span>
             </div>
           </div>
           <div class="timeline-item">
             <div class="year">2026</div>
             <div>
-              <p style="margin-bottom:0;" data-i18n="results.item2.p">
-                ICPC House arranca su primera edición: entrenamiento en convivencia para varios equipos
-                uruguayos con la mira puesta en la Regional Latinoamericana y, más adelante, en una Final Mundial.
-              </p>
-              <span class="badge" data-i18n="results.item2.badge">En marcha</span>
+              <p style="margin-bottom:0;" data-i18n="results.item2.p">ICPC House kicks off its first edition: live-in training for several Uruguayan teams with sights set on the Latin American Regional and, later, a World Finals.</p>
+              <span class="badge" data-i18n="results.item2.badge">Underway</span>
             </div>
           </div>
         </div>
@@ -326,57 +193,59 @@
     <section class="section" id="patrocinadores">
       <div class="container">
         <div class="section-head center">
-          <div class="eyebrow" data-i18n="sponsors.eyebrow">Quiénes lo hacen posible</div>
-          <h2 data-i18n="sponsors.h2">Patrocinadores e impulsores</h2>
-          <p data-i18n="sponsors.p">ICPC Uruguay y ICPC House existen gracias al apoyo de empresas y organizaciones comprometidas con el talento tecnológico del país.</p>
+          <div class="eyebrow" data-i18n="sponsors.eyebrow">Who makes it possible</div>
+          <h2 data-i18n="sponsors.h2">Sponsors and backers</h2>
+          <p data-i18n="sponsors.p">ICPC Uruguay and ICPC House exist thanks to the support of companies and organizations committed to the country’s tech talent.</p>
         </div>
 
         <div class="sponsor-tiers">
           <div class="sponsor-main">
             <a class="driver-logo" href="https://antigravity.capital" target="_blank" rel="noopener">antigravity.capital</a>
             <div>
-              <h4 style="margin-bottom:4px;" data-i18n="sponsors.mainH4">Impulsor principal de ICPC House</h4>
-              <p style="margin:0;" data-i18n="sponsors.mainP">Antigravity Capital respalda la casa de entrenamiento que preparará al primer equipo uruguayo rumbo a una Final Mundial de ICPC.</p>
+              <h4 style="margin-bottom:4px;" data-i18n="sponsors.mainH4">Lead backer of ICPC House</h4>
+              <p style="margin:0;" data-i18n="sponsors.mainP">Antigravity Capital backs the training house that will prepare the first Uruguayan team for an ICPC World Finals.</p>
             </div>
           </div>
 
           <div class="sponsor-grid">
-            <div class="sponsor-slot" data-i18n="sponsors.slot">Tu empresa acá</div>
-            <div class="sponsor-slot" data-i18n="sponsors.slot">Tu empresa acá</div>
-            <div class="sponsor-slot" data-i18n="sponsors.slot">Tu empresa acá</div>
-            <div class="sponsor-slot" data-i18n="sponsors.slot">Tu empresa acá</div>
+            <div class="sponsor-slot" data-i18n="sponsors.slot">Your company here</div>
+            <div class="sponsor-slot" data-i18n="sponsors.slot">Your company here</div>
+            <div class="sponsor-slot" data-i18n="sponsors.slot">Your company here</div>
+            <div class="sponsor-slot" data-i18n="sponsors.slot">Your company here</div>
           </div>
         </div>
 
-        <div style="text-align:center; margin-top:36px;">
-          <a href="#contacto" class="btn btn-outline" data-i18n="sponsors.btn">Quiero ser sponsor</a>
+        <div class="funding-goal">
+          <div class="funding-goal-top">
+            <span class="funding-goal-icon" aria-hidden="true">🎯</span>
+            <span class="funding-goal-label" data-i18n="house.goalLabel">Fundraising goal</span>
+            <span class="funding-goal-pct" data-i18n="house.goalPct">0%</span>
+          </div>
+          <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" data-i18n-attr-aria-label="house.goalLabel" aria-label="Fundraising goal">
+            <div class="progress-fill" id="funding-bar" style="width:0%"></div>
+          </div>
+          <div class="funding-goal-amounts" data-i18n="house.goalProgress">USD 0 raised of the USD 8,000 goal</div>
+          <div class="funding-goal-foot">
+            <p data-i18n="house.goalP">To cover the house’s rental costs for the entire training period.</p>
+            <a href="#contacto" class="btn-xl">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span data-i18n="sponsors.btn">I want to sponsor</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- CONTACTO -->
     <section class="section" id="contacto">
-      <div class="container contact-grid">
-        <div>
-          <div class="eyebrow" data-i18n="contact.eyebrow">Sumate</div>
-          <h2 data-i18n="contact.h2">Hablemos</h2>
-          <p data-i18n="contact.p">
-            ¿Sos estudiante y querés postularte a ICPC House? ¿Tu empresa quiere sumarse como sponsor?
-            ¿Sos docente o referente y querés colaborar con la comunidad? Escribinos.
-          </p>
-        </div>
-
-        <div class="contact-card">
-          <h3 data-i18n="contact.cardH3">Contacto</h3>
-          <ul class="contact-list">
-            <li>
-              <a href="mailto:hola@icpc.uy">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
-                hola@icpc.uy
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="container contact-inner">
+        <div class="eyebrow" data-i18n="contact.eyebrow">Train with us</div>
+        <h2 data-i18n="contact.h2">Let’s talk</h2>
+        <p data-i18n="contact.p">Are you a student who wants to come train at ICPC House? Does your company want to join as a sponsor? Are you a teacher or community leader who wants to collaborate? Write to us.</p>
+        <a class="btn-xl" href="mailto:hola@icpc.uy">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+          hola@icpc.uy
+        </a>
       </div>
     </section>
 
@@ -390,7 +259,7 @@
         </span>
         ICPC<span class="uy">.uy</span>
       </div>
-      <p class="footer-note" data-i18n="footer.note">Comunidad de programación competitiva del Uruguay. No es un sitio oficial de ICPC Global.</p>
+      <p class="footer-note" data-i18n="footer.note">Uruguay’s competitive programming community. Not an official ICPC Global site.</p>
     </div>
   </footer>
 
