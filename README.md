@@ -100,3 +100,17 @@ naranja — dejalo en "DNS only" — mientras se valida el dominio en GitHub.)
   rápida sin backend; se linkea desde los botones "Quiero entrenar" / "Entrená con nosotros").
 - Confirmar la fecha exacta de la Regional Latinoamericana 2026 y ajustar el texto de
   "hasta el 7 de noviembre" si cambia.
+
+## Despliegue y caché
+
+`icpc.uy` se sirve detrás del CDN de Hostinger (`hcdn`), que cachea los estáticos
+con `cache-control: public, max-age=604800` (7 días) y de forma independiente en
+cada edge. `index.html` no se cachea (`DYNAMIC`), así que siempre llega fresco.
+
+Por eso los assets se enlazan con una versión: `css/style.css?v=2`, `js/i18n.js?v=2`,
+`js/main.js?v=2`.
+
+**Al cambiar CSS o JS hay que subir ese número en `index.html`.** Si no, los
+visitantes cuyo edge tenga el archivo viejo van a seguir viéndolo hasta 7 días,
+aunque el repo esté al día. Las imágenes de fondo se cargan desde el CSS, así que
+un CSS viejo hace que ni siquiera se pidan: se ve como si "no cargaran".
