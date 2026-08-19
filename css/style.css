@@ -512,7 +512,17 @@ nav.main-nav a.highlight {
   color: var(--text);
 }
 
-.funding-goal p { margin: 6px 0 0; font-size: .92rem; }
+/* En ancho holgado la descripcion y el CTA comparten fila; en angosto se apilan. */
+.funding-goal-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.funding-goal-foot p { margin: 0; max-width: 40ch; font-size: .92rem; }
 
 .house-driver {
   display: flex;
@@ -578,7 +588,8 @@ a.driver-logo:hover { border-color: var(--sky); color: var(--sky-strong); }
 
 .contact-inner p { margin-bottom: 32px; }
 
-.btn-mail {
+/* CTA grande: pill dorado. Se usa en recaudacion y en contacto. */
+.btn-xl {
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -591,9 +602,10 @@ a.driver-logo:hover { border-color: var(--sky); color: var(--sky-strong); }
   font-size: 1.15rem;
   box-shadow: 0 14px 36px -14px rgba(255, 204, 51, 0.6);
   transition: transform .15s ease, box-shadow .15s ease;
+  white-space: nowrap;
 }
 
-.btn-mail:hover {
+.btn-xl:hover {
   transform: translateY(-2px);
   box-shadow: 0 18px 44px -12px rgba(255, 204, 51, 0.7);
 }
@@ -644,4 +656,14 @@ footer {
   /* El CTA del header no entra junto al logo, el switch de idioma y el
      hamburguesa. Se oculta: el mismo destino esta en el menu y en el hero. */
   .header-cta .btn-primary { display: none; }
+
+  /* A este ancho el pill con padding fijo se desborda de su contenedor:
+     pasa a ocupar el ancho completo y puede partir el texto antes que salirse. */
+  .btn-xl {
+    width: 100%;
+    justify-content: center;
+    padding: 18px 20px;
+    font-size: 1rem;
+    white-space: normal;
+  }
 }
