@@ -1,4 +1,4 @@
-# ICPC Uruguay — icpc.uy
+# Club ICPC.uy
 
 Sitio estático de la comunidad de programación competitiva de Uruguay, con una sección
 dedicada a **ICPC House**, la iniciativa impulsada por [Antigravity Capital](https://antigravity.capital)
