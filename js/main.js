@@ -1,4 +1,4 @@
-// ICPC Uruguay — interacciones base (menú móvil + resaltado de sección activa)
+// Club ICPC.uy — interacciones base (menú móvil + resaltado de sección activa)
 
 (function () {
   const header = document.getElementById('site-header');

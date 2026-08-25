@@ -1,4 +1,4 @@
-// ICPC Uruguay — bilingual content (ES/EN), auto-detected from the browser language
+// Club ICPC.uy — bilingual content (ES/EN), auto-detected from the browser language
 
 (function () {
   var STORAGE_KEY = 'icpc-lang';
@@ -10,9 +10,9 @@
 
   var translations = {
     es: {
-      'meta.title': 'ICPC Uruguay — Rumbo a una Final Mundial',
-      'meta.description': 'ICPC Uruguay reúne a los mejores programadores competitivos del país. Conocé ICPC House, la iniciativa que prepara al primer equipo uruguayo para una Final Mundial de ICPC.',
-      'og.title': 'ICPC Uruguay — Rumbo a una Final Mundial',
+      'meta.title': 'Club ICPC.uy — Rumbo a una Final Mundial',
+      'meta.description': 'Club ICPC.uy reúne a los mejores programadores competitivos del país. Conocé ICPC House, la iniciativa que prepara al primer equipo uruguayo para una Final Mundial de ICPC.',
+      'og.title': 'Club ICPC.uy — Rumbo a una Final Mundial',
       'og.description': 'Conocé ICPC House, la casa que prepara al primer equipo uruguayo para una Final Mundial de ICPC.',
 
       'nav.inicio': 'Inicio',
@@ -26,13 +26,13 @@
 
       'hero.eyebrow': 'Comunidad de programación competitiva del Uruguay',
       'hero.h1': 'Uruguay tiene con qué llegar a una <span class="accent">Final Mundial de ICPC</span>',
-      'hero.lede': 'ICPC Uruguay nuclea a estudiantes, universidades y empresas que impulsan la programación competitiva en el país. Entrenamos, competimos en la Regional Latinoamericana y trabajamos para que un equipo uruguayo llegue, por primera vez, a la Final Mundial del International Collegiate Programming Contest.',
+      'hero.lede': 'Club ICPC.uy nuclea a estudiantes y empresas que impulsan la programación competitiva en el país. Entrenamos, competimos en la Regional Latinoamericana y trabajamos para que un equipo uruguayo llegue, por primera vez, a la Final Mundial del International Collegiate Programming Contest.',
       'hero.btnPrimary': 'Descubrí ICPC House',
       'hero.btnOutline': 'Entrená con nosotros',
 
       'about.eyebrow': 'Sobre la competencia',
       'about.h2': '¿Qué es el ICPC?',
-      'about.p1': 'El <strong>International Collegiate Programming Contest (ICPC)</strong> es la competencia de programación universitaria más antigua, grande y prestigiosa del mundo. Equipos de tres estudiantes, con una única computadora, tienen cinco horas para resolver la mayor cantidad posible de problemas algorítmicos: estructuras de datos, matemática, grafos y lógica pura bajo presión.',
+      'about.p1': 'El <strong>International Collegiate Programming Contest (ICPC)</strong> es la competencia de programación universitaria más antigua, grande y prestigiosa del mundo. Equipos de tres estudiantes, con una única computadora, tienen cinco horas para resolver la mayor cantidad posible de problemas algorítmicos: programación dinámica, grafos, estructuras de datos, combinatoria y teoría de números, todo bajo presión de tiempo.',
       'about.path1.h4': 'Clasificatorio local',
       'about.path1.p': 'Torneos y entrenamientos universitarios para formar equipos.',
       'about.path2.h4': 'Regional Latinoamericana',
@@ -71,7 +71,7 @@
 
       'sponsors.eyebrow': 'Quiénes lo hacen posible',
       'sponsors.h2': 'Patrocinadores e impulsores',
-      'sponsors.p': 'ICPC Uruguay y ICPC House existen gracias al apoyo de empresas y organizaciones comprometidas con el talento tecnológico del país.',
+      'sponsors.p': 'Club ICPC.uy y ICPC House existen gracias al apoyo de empresas y organizaciones comprometidas con el talento tecnológico del país.',
       'sponsors.mainH4': 'Impulsor principal de ICPC House',
       'sponsors.mainP': 'Antigravity Capital respalda la casa de entrenamiento que preparará al primer equipo uruguayo rumbo a una Final Mundial de ICPC.',
       'sponsors.slot': 'Tu empresa acá',
@@ -85,9 +85,9 @@
     },
 
     en: {
-      'meta.title': 'ICPC Uruguay — On the Road to a World Finals',
-      'meta.description': 'ICPC Uruguay brings together the country’s top competitive programmers. Meet ICPC House, the initiative preparing the first Uruguayan team for an ICPC World Finals.',
-      'og.title': 'ICPC Uruguay — On the Road to a World Finals',
+      'meta.title': 'Club ICPC.uy — On the Road to a World Finals',
+      'meta.description': 'Club ICPC.uy brings together the country’s top competitive programmers. Meet ICPC House, the initiative preparing the first Uruguayan team for an ICPC World Finals.',
+      'og.title': 'Club ICPC.uy — On the Road to a World Finals',
       'og.description': 'Meet ICPC House, the house preparing the first Uruguayan team for an ICPC World Finals.',
 
       'nav.inicio': 'Home',
@@ -101,13 +101,13 @@
 
       'hero.eyebrow': 'Uruguay’s competitive programming community',
       'hero.h1': 'Uruguay has what it takes to reach an <span class="accent">ICPC World Finals</span>',
-      'hero.lede': 'ICPC Uruguay brings together students, universities, and companies driving competitive programming in the country. We train, compete in the Latin American Regional, and work to get a Uruguayan team to the International Collegiate Programming Contest World Finals for the first time.',
+      'hero.lede': 'Club ICPC.uy brings together students and companies driving competitive programming in the country. We train, compete in the Latin American Regional, and work to get a Uruguayan team to the International Collegiate Programming Contest World Finals for the first time.',
       'hero.btnPrimary': 'Discover ICPC House',
       'hero.btnOutline': 'Train with us',
 
       'about.eyebrow': 'About the contest',
       'about.h2': 'What is ICPC?',
-      'about.p1': 'The <strong>International Collegiate Programming Contest (ICPC)</strong> is the oldest, largest, and most prestigious university programming competition in the world. Teams of three students, with a single computer, have five hours to solve as many algorithmic problems as possible: data structures, math, graphs, and pure logic under pressure.',
+      'about.p1': 'The <strong>International Collegiate Programming Contest (ICPC)</strong> is the oldest, largest, and most prestigious university programming competition in the world. Teams of three students, with a single computer, have five hours to solve as many algorithmic problems as possible: dynamic programming, graphs, data structures, combinatorics, and number theory — all under time pressure.',
       'about.path1.h4': 'Local qualifier',
       'about.path1.p': 'University tournaments and training sessions to form teams.',
       'about.path2.h4': 'Latin American Regional',
@@ -146,7 +146,7 @@
 
       'sponsors.eyebrow': 'Who makes it possible',
       'sponsors.h2': 'Sponsors and backers',
-      'sponsors.p': 'ICPC Uruguay and ICPC House exist thanks to the support of companies and organizations committed to the country’s tech talent.',
+      'sponsors.p': 'Club ICPC.uy and ICPC House exist thanks to the support of companies and organizations committed to the country’s tech talent.',
       'sponsors.mainH4': 'Lead backer of ICPC House',
       'sponsors.mainP': 'Antigravity Capital backs the training house that will prepare the first Uruguayan team for an ICPC World Finals.',
       'sponsors.slot': 'Your company here',
