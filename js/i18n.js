@@ -19,6 +19,7 @@
       'nav.sobre': 'Sobre ICPC',
       'nav.house': 'ICPC House',
       'nav.resultados': 'Resultados',
+      'nav.competidores': 'Competidores',
       'nav.patrocinadores': 'Patrocinadores',
       'nav.contacto': 'Contacto',
       'header.cta': 'Conocé ICPC House',
@@ -68,6 +69,7 @@
       'results.item1.badge': 'Mejor resultado histórico reciente',
       'results.item2.p': 'ICPC House arranca su primera edición: entrenamiento en convivencia para varios equipos uruguayos con la mira puesta en la Regional Latinoamericana y, más adelante, en una Final Mundial.',
       'results.item2.badge': 'En marcha',
+      'results.competitorsCta': 'Conocé a nuestros competidores',
 
       'sponsors.eyebrow': 'Quiénes lo hacen posible',
       'sponsors.h2': 'Patrocinadores e impulsores',
@@ -94,6 +96,7 @@
       'nav.sobre': 'About ICPC',
       'nav.house': 'ICPC House',
       'nav.resultados': 'Results',
+      'nav.competidores': 'Competitors',
       'nav.patrocinadores': 'Sponsors',
       'nav.contacto': 'Contact',
       'header.cta': 'Meet ICPC House',
@@ -143,6 +146,7 @@
       'results.item1.badge': 'Best recent result',
       'results.item2.p': 'ICPC House kicks off its first edition: live-in training for several Uruguayan teams with sights set on the Latin American Regional and, later, a World Finals.',
       'results.item2.badge': 'Underway',
+      'results.competitorsCta': 'Meet our competitors',
 
       'sponsors.eyebrow': 'Who makes it possible',
       'sponsors.h2': 'Sponsors and backers',
