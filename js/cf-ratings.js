@@ -26,19 +26,17 @@
 
   function renderBadges(data) {
     document.querySelectorAll('[data-cf-handle]').forEach(function (el) {
-      if (el.nextElementSibling && el.nextElementSibling.classList.contains('cf-rating')) return;
+      if (el.querySelector('.cf-elo')) return;
       var handle = el.getAttribute('data-cf-handle').toLowerCase();
       var info = data[handle];
       if (!info || typeof info.rating !== 'number') return;
-      var badge = document.createElement('span');
-      badge.className = 'cf-rating';
-      badge.textContent = info.rating;
+      var elo = document.createElement('span');
+      elo.className = 'cf-elo';
+      elo.textContent = ' · ELO: ' + info.rating;
       var label = rankLabel(info.rank);
-      if (label) badge.title = label;
-      var color = tierColor(info.rating);
-      badge.style.color = color;
-      badge.style.borderColor = color;
-      el.insertAdjacentElement('afterend', badge);
+      if (label) el.title = label;
+      elo.style.color = tierColor(info.rating);
+      el.appendChild(elo);
     });
   }
 

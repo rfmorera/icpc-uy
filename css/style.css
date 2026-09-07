@@ -623,6 +623,20 @@ a.driver-logo:hover { border-color: var(--sky); color: var(--sky-strong); }
 
 .team-block:first-of-type { border-top: none; padding-top: 0; }
 
+.team-name {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 204, 51, 0.4);
+  background: rgba(255, 204, 51, 0.08);
+  color: var(--gold-strong);
+  font-size: .78rem;
+  font-family: var(--font-head);
+  font-weight: 700;
+  letter-spacing: .02em;
+  margin-bottom: 16px;
+}
+
 .team-name-placeholder {
   display: inline-block;
   padding: 6px 14px;
@@ -712,16 +726,8 @@ a.driver-logo:hover { border-color: var(--sky); color: var(--sky-strong); }
 
 .member-links a.cf { font-family: "Space Grotesk", monospace; }
 
-.cf-rating {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.03);
-  font-family: var(--font-head);
+.cf-elo {
   font-weight: 700;
-  font-size: .8rem;
 }
 
 /* Placeholder member cards: integrantes de equipo aun sin confirmar */
