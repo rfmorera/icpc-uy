@@ -125,6 +125,12 @@
       'competitors.guzman.role': 'Estudiante, Universidad Católica del Uruguay (desde 2024)',
       'competitors.guzman.bio': 'Comenzó sus estudios en 2024 y se prepara para disputar su primera Regional de ICPC, sumándose al crecimiento de la programación competitiva en la Universidad Católica del Uruguay.',
 
+      'competitors.coachCta': 'Conocé a nuestro coach',
+      'competitors.coach.tag': 'Campeón Nacional de ICPC Uruguay (coach) 2024 y 2025',
+      'competitors.coach.h3': 'El coach detrás del proyecto',
+      'competitors.rafael.role': 'Tech Lead · Senior AI Engineer en Canals · Profesor Adjunto, Universidad ORT Uruguay',
+      'competitors.rafael.bio': 'Profesor titular de programación competitiva en la Universidad ORT Uruguay desde 2023: bajo su guía, el equipo de ORT clasificó a la PDA (Programadores de América) en 2025 y 2026, entre los 40 mejores de Latinoamérica. Como coach, llevó a Uruguay a ser Campeón Nacional de ICPC en 2024 y 2025. Ingeniero de software senior con foco en IA y NLP, con pasos por Mercado Libre y Canals, y medallista internacional en programación competitiva (bronce en la Regional del Caribe de la ACM-ICPC 2016, entre otros reconocimientos).',
+
       'footer.note': 'Comunidad de programación competitiva del Uruguay. No es un sitio oficial de ICPC Global.'
     },
 
@@ -243,6 +249,12 @@
       'competitors.leandro.bio': 'A Software Engineer with experience in machine learning, university-level teaching, and software development. He started programming at 13 through game development and later expanded into web systems and AI, and also built and scaled a YouTube channel to over 80,000 subscribers through data-driven experimentation and growth strategy. He’s now focused on competitive programming (ICPC) and advanced algorithmic problem-solving, with a strong interest in high-performance, rigorous engineering environments. He began his studies in 2024.',
       'competitors.guzman.role': 'Student, Universidad Católica del Uruguay (since 2024)',
       'competitors.guzman.bio': 'He began his studies in 2024 and is preparing to compete in his first ICPC Regional, joining the growth of competitive programming at Universidad Católica del Uruguay.',
+
+      'competitors.coachCta': 'Meet our coach',
+      'competitors.coach.tag': 'Uruguay ICPC National Champion (coach) 2024 and 2025',
+      'competitors.coach.h3': 'The coach behind the project',
+      'competitors.rafael.role': 'Tech Lead · Senior AI Engineer at Canals · Adjunct Professor, Universidad ORT Uruguay',
+      'competitors.rafael.bio': 'He’s been the lead professor of competitive programming at Universidad ORT Uruguay since 2023: under his guidance, the ORT team qualified for the PDA (Programadores de América) in 2025 and 2026, ranking among the top 40 in Latin America. As a coach, he led Uruguay to the ICPC National Championship in 2024 and 2025. A senior software engineer focused on AI and NLP, with experience at Mercado Libre and Canals, and an international medalist in competitive programming himself — bronze at the ACM-ICPC Caribbean Regional in 2016, among other honors.',
 
       'footer.note': 'Uruguay’s competitive programming community. Not an official ICPC Global site.'
     }
