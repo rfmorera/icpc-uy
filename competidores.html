@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 
   <meta property="og:title" content="Competidores — ICPC Uruguay">
   <meta property="og:description" content="Conocé a los equipos y competidores de ICPC Uruguay.">
@@ -58,182 +58,172 @@
     <!-- PAGE HEADER -->
     <section class="page-header">
       <div class="container">
-        <div class="eyebrow">Nuestro talento</div>
-        <h1 style="font-size:clamp(2.1rem,4.2vw,3.1rem);">Conocé a nuestros competidores</h1>
-        <p class="page-lede">
-          Detrás de ICPC Uruguay hay estudiantes y profesionales que ya compiten en el circuito universitario
-          de programación más exigente de la región. A continuación, los equipos y perfiles que hoy sostienen
-          el proyecto: su formación, su trayectoria en ICPC y dónde seguir su trabajo.
-        </p>
+        <div class="eyebrow" data-i18n="competitors.eyebrow">Our talent</div>
+        <h1 style="font-size:clamp(2.1rem,4.2vw,3.1rem);" data-i18n="competitors.h1">Meet our competitors</h1>
+        <p class="page-lede" data-i18n="competitors.lede">Behind ICPC Uruguay are students and professionals already competing in the region’s most demanding university programming circuit. Below are the teams and profiles behind the project today: their background, their ICPC track record, and where to follow their work.</p>
       </div>
     </section>
 
-    <!-- EQUIPO 1 -->
+    <!-- EQUIPO A: PDA / Final Continental -->
     <section class="section team-block">
       <div class="container">
         <div class="team-head">
-          <span class="team-name-placeholder">Nombre del equipo — a confirmar</span>
-          <h3>Clasificado dos veces a la Final Continental de ICPC</h3>
-          <p class="team-tag">Universidad ORT Uruguay</p>
+          <span class="team-name-placeholder" data-i18n="competitors.teamPlaceholder">Team name — to be confirmed</span>
+          <h3 data-i18n="competitors.teamA.h3">Twice qualified for the PDA, the ICPC Continental Final</h3>
+          <p class="team-tag" data-i18n="competitors.teamA.tag">Universidad ORT Uruguay · PDA = Programadores de América</p>
         </div>
 
         <div class="members-grid">
           <div class="member-card">
-            <div class="member-avatar">NZ</div>
-            <h4>Nahuel Zeballos</h4>
-            <p class="member-role">Desarrollador de software en Zureo · Profesor · Ing. de Sistemas, ORT</p>
-            <p class="member-bio">
-              Como competidor de ICPC, integra uno de los equipos uruguayos que ha alcanzado en dos ocasiones
-              la Final Continental de América Latina, reflejando un nivel sostenido de preparación algorítmica
-              y resolución colaborativa de problemas.
-            </p>
-            <div class="member-links">
-              <a href="https://www.linkedin.com/in/nahuel-zeballos/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/Nushey" target="_blank" rel="noopener">Codeforces: Nushey</a>
-            </div>
-          </div>
-
-          <div class="member-card">
             <div class="member-avatar">JB</div>
             <h4>Joaquín Bonora</h4>
-            <p class="member-role">Software Engineer en Frida HR · Docente, Universidad ORT Uruguay</p>
-            <p class="member-bio">
-              Combina experiencia profesional y académica con una trayectoria destacada en ICPC Uruguay: forma
-              parte del equipo de ORT que clasificó dos veces a la Final Continental de América Latina. Su perfil
-              representa el tipo de talento que puede competir al máximo nivel mientras aporta a la formación de
-              nuevas generaciones.
-            </p>
+            <p class="member-role" data-i18n="competitors.bonora.role">Software Engineer at Frida HR · Lecturer, Universidad ORT Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.bonora.bio">He combines professional and academic experience with a standout track record in ICPC Uruguay: he’s part of the ORT team that qualified twice for the PDA, the Latin American Continental Final. His profile is the kind of talent that can compete at the highest level while helping train the next generation.</p>
             <div class="member-links">
               <a href="https://www.linkedin.com/in/joaquin-bonora/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/Noborita" target="_blank" rel="noopener">Codeforces: Noborita</a>
+              <a class="cf" data-cf-handle="Noborita" href="https://codeforces.com/profile/Noborita" target="_blank" rel="noopener">Codeforces: Noborita</a>
             </div>
           </div>
 
           <div class="member-card">
             <div class="member-avatar">JD</div>
             <h4>Juan Manuel Duarte Pallavicini</h4>
-            <p class="member-role">Junior Developer en STeP · Estudiante, Universidad ORT Uruguay</p>
-            <p class="member-bio">
-              Competidor de la Final Continental de ICPC Latinoamérica e integrante del equipo de ORT que logró
-              clasificar dos veces a esta instancia. Su recorrido muestra la proyección de estudiantes que, desde
-              Uruguay, ya compiten en el principal circuito universitario de programación de la región.
-            </p>
+            <p class="member-role" data-i18n="competitors.duarte.role">Junior Developer at STeP · Student, Universidad ORT Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.duarte.bio">A PDA competitor — the ICPC Latin American Continental Final — and member of the ORT team that has qualified for it twice. His path shows the potential of students who, from Uruguay, already compete in the region’s top university programming circuit.</p>
             <div class="member-links">
               <a href="https://www.linkedin.com/in/juan-manuel-duarte-pallavicini/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="cf" data-cf-handle="Dstruc" href="https://codeforces.com/profile/Dstruc" target="_blank" rel="noopener">Codeforces: Dstruc</a>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">NZ</div>
+            <h4>Nahuel Zeballos</h4>
+            <p class="member-role" data-i18n="competitors.zeballos.role">Software Developer at Zureo · Lecturer · Systems Engineering student, ORT</p>
+            <p class="member-bio" data-i18n="competitors.zeballos.bio">As an ICPC competitor, he’s part of one of the Uruguayan teams that has reached the PDA — the Latin American Continental Final — twice, reflecting a sustained level of algorithmic preparation and collaborative problem-solving.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/nahuel-zeballos/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="cf" data-cf-handle="Nushey" href="https://codeforces.com/profile/Nushey" target="_blank" rel="noopener">Codeforces: Nushey</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- EQUIPO 2 -->
+    <!-- EQUIPO B: Tomasetti, Canedo, Zorron -->
     <section class="section team-block">
       <div class="container">
         <div class="team-head">
-          <span class="team-name-placeholder">Nombre del equipo — a confirmar</span>
-          <h3>Otros competidores destacados</h3>
-          <p class="team-tag">Universidad ORT Uruguay</p>
+          <span class="team-name-placeholder" data-i18n="competitors.teamPlaceholder">Team name — to be confirmed</span>
+          <h3 data-i18n="competitors.teamBC.h3">Podium finish at ORT’s Internal Programming Contest</h3>
+          <p class="team-tag" data-i18n="competitors.teamBC.tag">Universidad ORT Uruguay</p>
         </div>
 
         <div class="members-grid">
           <div class="member-card">
-            <div class="member-avatar">FP</div>
-            <h4>Franco Pérez Carballo</h4>
-            <p class="member-role">Desarrollador junior · Estudiante de Ing. de Software · Emprendedor</p>
-            <p class="member-bio">
-              Participa activamente en ICPC y en el entorno de programación competitiva de ORT; integró equipos
-              con resultados de podio —3.º y 4.º lugar— en el concurso interno de programación de la universidad.
-            </p>
-            <div class="member-links">
-              <a href="https://www.linkedin.com/in/franco-perez-carballo/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/Franco_04" target="_blank" rel="noopener">Codeforces: Franco_04</a>
-            </div>
-          </div>
-
-          <div class="member-card">
-            <div class="member-avatar">LT</div>
-            <h4>Luis Thomburne Vidales</h4>
-            <p class="member-role">Software Developer en Tata Consultancy Services · Estudiante, ORT</p>
-            <p class="member-bio">
-              Competidor de ICPC y parte de la nueva generación de programadores competitivos que ha logrado
-              posiciones destacadas —3.º y 4.º lugar— en el concurso ORT.
-            </p>
-            <div class="member-links">
-              <a href="https://www.linkedin.com/in/luis-thomburne-vidales-6b3995282/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/LuisThom" target="_blank" rel="noopener">Codeforces: LuisThom</a>
-            </div>
-          </div>
-
-          <div class="member-card">
             <div class="member-avatar">JT</div>
             <h4>Juan Martín Tomasetti</h4>
-            <p class="member-role">Estudiante, Universidad ORT Uruguay</p>
-            <p class="member-bio">
-              Competidor activo de programación competitiva. Participó en instancias de entrenamiento regional,
-              incluyendo el campamento de la Asociación Argentina de Programación Competitiva, y obtuvo resultados
-              de 3.º y 4.º lugar en el concurso ORT. Representa una cantera que ya se está conectando con el
-              ecosistema competitivo latinoamericano.
-            </p>
+            <p class="member-role" data-i18n="competitors.tomasetti.role">Student, Universidad ORT Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.tomasetti.bio">An active competitive programmer. He has taken part in regional training instances, including the Argentine Competitive Programming Association’s training camp, and placed 3rd and 4th with his team at the ORT contest. He represents a pipeline of talent already connecting with the Latin American competitive ecosystem.</p>
             <div class="member-links">
               <a href="https://www.linkedin.com/in/juan-tomasetti/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/juanucho18" target="_blank" rel="noopener">Codeforces: juanucho18</a>
-            </div>
-          </div>
-
-          <div class="member-card">
-            <div class="member-avatar">CZ</div>
-            <h4>Christian Zorrón</h4>
-            <p class="member-role">Estudiante, Universidad ORT Uruguay</p>
-            <p class="member-bio">
-              Competidor de ICPC. Alcanzó resultados de 3.º y 4.º lugar en el concurso ORT, demostrando una base
-              sólida en resolución algorítmica y trabajo bajo presión de competencia.
-            </p>
-            <div class="member-links">
-              <a href="https://www.linkedin.com/in/christian-zorr%C3%B3n-260400266/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/krusty1234" target="_blank" rel="noopener">Codeforces: krusty1234</a>
+              <a class="cf" data-cf-handle="juanucho18" href="https://codeforces.com/profile/juanucho18" target="_blank" rel="noopener">Codeforces: juanucho18</a>
             </div>
           </div>
 
           <div class="member-card">
             <div class="member-avatar">JC</div>
             <h4>Juan Pablo Canedo</h4>
-            <p class="member-role">Estudiante, Universidad ORT Uruguay</p>
-            <p class="member-bio">
-              Participante de ICPC Uruguay. Forma parte del grupo de estudiantes con desempeños de 3.º y 4.º
-              lugar en el concurso ORT, un semillero clave para ampliar la representación uruguaya en las
-              competencias regionales y, a futuro, mundiales.
-            </p>
+            <p class="member-role" data-i18n="competitors.canedo.role">Student, Universidad ORT Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.canedo.bio">An ICPC Uruguay participant. Together with his team, he’s part of the 3rd- and 4th-place finishes at the ORT contest — a key pipeline for expanding Uruguay’s presence in regional, and eventually world, competitions.</p>
             <div class="member-links">
               <a href="https://www.linkedin.com/in/juan-pablo-canedo-249768367/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="cf" href="https://codeforces.com/profile/Can3do" target="_blank" rel="noopener">Codeforces: Can3do</a>
+              <a class="cf" data-cf-handle="Can3do" href="https://codeforces.com/profile/Can3do" target="_blank" rel="noopener">Codeforces: Can3do</a>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">CZ</div>
+            <h4>Christian Zorrón</h4>
+            <p class="member-role" data-i18n="competitors.zorron.role">Student, Universidad ORT Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.zorron.bio">An ICPC competitor. His team placed 3rd and 4th at the ORT contest, demonstrating a solid foundation in algorithmic problem-solving and performing under competitive pressure.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/christian-zorr%C3%B3n-260400266/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="cf" data-cf-handle="krusty1234" href="https://codeforces.com/profile/krusty1234" target="_blank" rel="noopener">Codeforces: krusty1234</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- EQUIPO 3 -->
+    <!-- EQUIPO C: Franco, Luis + placeholder -->
     <section class="section team-block">
       <div class="container">
         <div class="team-head">
-          <span class="team-name-placeholder">Nombre del equipo — a confirmar</span>
-          <h3>Ampliando la representación nacional</h3>
-          <p class="team-tag">Universidad Católica del Uruguay</p>
+          <span class="team-name-placeholder" data-i18n="competitors.teamPlaceholder">Team name — to be confirmed</span>
+          <h3 data-i18n="competitors.teamBC.h3">Podium finish at ORT’s Internal Programming Contest</h3>
+          <p class="team-tag" data-i18n="competitors.teamBC.tag">Universidad ORT Uruguay</p>
+        </div>
+
+        <div class="members-grid">
+          <div class="member-card">
+            <div class="member-avatar">FP</div>
+            <h4>Franco Pérez Carballo</h4>
+            <p class="member-role" data-i18n="competitors.franco.role">Junior Developer · Software Engineering student · Entrepreneur</p>
+            <p class="member-bio" data-i18n="competitors.franco.bio">He’s actively involved in ICPC and ORT’s competitive programming community; together with his team, he placed on the podium — 3rd and 4th — at the university’s internal programming contest.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/franco-perez-carballo/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="cf" data-cf-handle="Franco_04" href="https://codeforces.com/profile/Franco_04" target="_blank" rel="noopener">Codeforces: Franco_04</a>
+            </div>
+          </div>
+
+          <div class="member-card">
+            <div class="member-avatar">LT</div>
+            <h4>Luis Thomburne Vidales</h4>
+            <p class="member-role" data-i18n="competitors.luis.role">Software Developer at Tata Consultancy Services · Student, ORT</p>
+            <p class="member-bio" data-i18n="competitors.luis.bio">An ICPC competitor and part of the new generation of competitive programmers who, with his team, achieved standout finishes — 3rd and 4th place — at the ORT contest.</p>
+            <div class="member-links">
+              <a href="https://www.linkedin.com/in/luis-thomburne-vidales-6b3995282/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="cf" data-cf-handle="LuisThom" href="https://codeforces.com/profile/LuisThom" target="_blank" rel="noopener">Codeforces: LuisThom</a>
+            </div>
+          </div>
+
+          <div class="member-card is-placeholder">
+            <div class="member-avatar">?</div>
+            <p class="placeholder-label" data-i18n="competitors.memberPlaceholder">Member to be confirmed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EQUIPO D: Universidad Catolica -->
+    <section class="section team-block">
+      <div class="container">
+        <div class="team-head">
+          <span class="team-name-placeholder" data-i18n="competitors.teamPlaceholder">Team name — to be confirmed</span>
+          <h3 data-i18n="competitors.teamD.h3">Expanding national representation</h3>
+          <p class="team-tag" data-i18n="competitors.teamD.tag">Universidad Católica del Uruguay</p>
         </div>
 
         <div class="members-grid">
           <div class="member-card">
             <div class="member-avatar">JL</div>
             <h4>José Ignacio Lavecchia Suárez</h4>
-            <p class="member-role">Estudiante de Ciencias de la Computación, Universidad Católica del Uruguay</p>
-            <p class="member-bio">
-              Se está formando como desarrollador de software, con experiencia en tecnologías .NET, React y SQL.
-              Su incorporación es relevante para que ICPC Uruguay trascienda una única institución y se consolide
-              como un proyecto nacional que reúna y eleve el talento competitivo de todas las universidades.
-            </p>
+            <p class="member-role" data-i18n="competitors.lavecchia.role">Computer Science student, Universidad Católica del Uruguay</p>
+            <p class="member-bio" data-i18n="competitors.lavecchia.bio">He’s training as a software developer, with experience in .NET, React, and SQL. His involvement matters for ICPC Uruguay to grow beyond a single institution and become a national project that brings together and elevates competitive talent from every university.</p>
             <div class="member-links">
               <a href="https://www.linkedin.com/in/jose-ignacio-lavecchia-suarez/" target="_blank" rel="noopener">LinkedIn</a>
             </div>
+          </div>
+
+          <div class="member-card is-placeholder">
+            <div class="member-avatar">?</div>
+            <p class="placeholder-label" data-i18n="competitors.memberPlaceholder">Member to be confirmed</p>
+          </div>
+
+          <div class="member-card is-placeholder">
+            <div class="member-avatar">?</div>
+            <p class="placeholder-label" data-i18n="competitors.memberPlaceholder">Member to be confirmed</p>
           </div>
         </div>
       </div>
@@ -253,7 +243,8 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js?v=3"></script>
-  <script src="js/main.js?v=3"></script>
+  <script src="js/i18n.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
+  <script src="js/cf-ratings.js?v=4"></script>
 </body>
 </html>

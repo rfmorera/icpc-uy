@@ -712,6 +712,42 @@ a.driver-logo:hover { border-color: var(--sky); color: var(--sky-strong); }
 
 .member-links a.cf { font-family: "Space Grotesk", monospace; }
 
+.cf-rating {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+/* Placeholder member cards: integrantes de equipo aun sin confirmar */
+.member-card.is-placeholder {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 168px;
+  border-style: dashed;
+  background: transparent;
+}
+
+.member-card.is-placeholder .member-avatar {
+  background: transparent;
+  border: 1px dashed var(--border);
+  color: var(--text-dim);
+}
+
+.member-card .placeholder-label {
+  margin: 0;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: .92rem;
+  color: var(--text-dim);
+}
+
 /* Footer */
 footer {
   border-top: 1px solid var(--border);

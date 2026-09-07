@@ -83,6 +83,39 @@
       'contact.h2': 'Hablemos',
       'contact.p': '¿Sos estudiante y querés venir a entrenar a ICPC House? ¿Tu empresa quiere sumarse como sponsor? ¿Sos docente o referente y querés colaborar con la comunidad? Escribinos.',
 
+      'competitors.eyebrow': 'Nuestro talento',
+      'competitors.h1': 'Conocé a nuestros competidores',
+      'competitors.lede': 'Detrás de ICPC Uruguay hay estudiantes y profesionales que ya compiten en el circuito universitario de programación más exigente de la región. A continuación, los equipos y perfiles que hoy sostienen el proyecto: su formación, su trayectoria en ICPC y dónde seguir su trabajo.',
+      'competitors.teamPlaceholder': 'Nombre del equipo — a confirmar',
+      'competitors.memberPlaceholder': 'Integrante por confirmar',
+
+      'competitors.teamA.h3': 'Clasificado dos veces a la PDA, la Final Continental de ICPC',
+      'competitors.teamA.tag': 'Universidad ORT Uruguay · PDA = Programadores de América',
+      'competitors.bonora.role': 'Software Engineer en Frida HR · Docente, Universidad ORT Uruguay',
+      'competitors.bonora.bio': 'Combina experiencia profesional y académica con una trayectoria destacada en ICPC Uruguay: forma parte del equipo de ORT que clasificó dos veces a la PDA, la Final Continental de América Latina. Su perfil representa el tipo de talento que puede competir al máximo nivel mientras aporta a la formación de nuevas generaciones.',
+      'competitors.duarte.role': 'Junior Developer en STeP · Estudiante, Universidad ORT Uruguay',
+      'competitors.duarte.bio': 'Competidor de la PDA, la Final Continental de ICPC Latinoamérica, e integrante del equipo de ORT que logró clasificar dos veces a esta instancia. Su recorrido muestra la proyección de estudiantes que, desde Uruguay, ya compiten en el principal circuito universitario de programación de la región.',
+      'competitors.zeballos.role': 'Desarrollador de software en Zureo · Profesor · Ing. de Sistemas, ORT',
+      'competitors.zeballos.bio': 'Como competidor de ICPC, integra uno de los equipos uruguayos que ha alcanzado en dos ocasiones la PDA, la Final Continental de América Latina, reflejando un nivel sostenido de preparación algorítmica y resolución colaborativa de problemas.',
+
+      'competitors.teamBC.h3': 'Podio en el Concurso Interno de Programación de ORT',
+      'competitors.teamBC.tag': 'Universidad ORT Uruguay',
+      'competitors.tomasetti.role': 'Estudiante, Universidad ORT Uruguay',
+      'competitors.tomasetti.bio': 'Competidor activo de programación competitiva. Participó en instancias de entrenamiento regional, incluyendo el campamento de la Asociación Argentina de Programación Competitiva, y obtuvo resultados de 3.º y 4.º lugar en el concurso ORT junto a su equipo. Representa una cantera que ya se está conectando con el ecosistema competitivo latinoamericano.',
+      'competitors.canedo.role': 'Estudiante, Universidad ORT Uruguay',
+      'competitors.canedo.bio': 'Participante de ICPC Uruguay. Forma parte, junto a su equipo, de los desempeños de 3.º y 4.º lugar en el concurso ORT, un semillero clave para ampliar la representación uruguaya en las competencias regionales y, a futuro, mundiales.',
+      'competitors.zorron.role': 'Estudiante, Universidad ORT Uruguay',
+      'competitors.zorron.bio': 'Competidor de ICPC. Su equipo alcanzó resultados de 3.º y 4.º lugar en el concurso ORT, demostrando una base sólida en resolución algorítmica y trabajo bajo presión de competencia.',
+      'competitors.franco.role': 'Desarrollador junior · Estudiante de Ing. de Software · Emprendedor',
+      'competitors.franco.bio': 'Participa activamente en ICPC y en el entorno de programación competitiva de ORT; integró, junto a su equipo, resultados de podio —3.º y 4.º lugar— en el concurso interno de programación de la universidad.',
+      'competitors.luis.role': 'Software Developer en Tata Consultancy Services · Estudiante, ORT',
+      'competitors.luis.bio': 'Competidor de ICPC y parte de la nueva generación de programadores competitivos que, junto a su equipo, logró posiciones destacadas —3.º y 4.º lugar— en el concurso ORT.',
+
+      'competitors.teamD.h3': 'Ampliando la representación nacional',
+      'competitors.teamD.tag': 'Universidad Católica del Uruguay',
+      'competitors.lavecchia.role': 'Estudiante de Ciencias de la Computación, Universidad Católica del Uruguay',
+      'competitors.lavecchia.bio': 'Se está formando como desarrollador de software, con experiencia en tecnologías .NET, React y SQL. Su incorporación es relevante para que ICPC Uruguay trascienda una única institución y se consolide como un proyecto nacional que reúna y eleve el talento competitivo de todas las universidades.',
+
       'footer.note': 'Comunidad de programación competitiva del Uruguay. No es un sitio oficial de ICPC Global.'
     },
 
@@ -159,6 +192,39 @@
       'contact.eyebrow': 'Train with us',
       'contact.h2': 'Let’s talk',
       'contact.p': 'Are you a student who wants to come train at ICPC House? Does your company want to join as a sponsor? Are you a teacher or community leader who wants to collaborate? Write to us.',
+
+      'competitors.eyebrow': 'Our talent',
+      'competitors.h1': 'Meet our competitors',
+      'competitors.lede': 'Behind ICPC Uruguay are students and professionals already competing in the region’s most demanding university programming circuit. Below are the teams and profiles behind the project today: their background, their ICPC track record, and where to follow their work.',
+      'competitors.teamPlaceholder': 'Team name — to be confirmed',
+      'competitors.memberPlaceholder': 'Member to be confirmed',
+
+      'competitors.teamA.h3': 'Twice qualified for the PDA, the ICPC Continental Final',
+      'competitors.teamA.tag': 'Universidad ORT Uruguay · PDA = Programadores de América',
+      'competitors.bonora.role': 'Software Engineer at Frida HR · Lecturer, Universidad ORT Uruguay',
+      'competitors.bonora.bio': 'He combines professional and academic experience with a standout track record in ICPC Uruguay: he’s part of the ORT team that qualified twice for the PDA, the Latin American Continental Final. His profile is the kind of talent that can compete at the highest level while helping train the next generation.',
+      'competitors.duarte.role': 'Junior Developer at STeP · Student, Universidad ORT Uruguay',
+      'competitors.duarte.bio': 'A PDA competitor — the ICPC Latin American Continental Final — and member of the ORT team that has qualified for it twice. His path shows the potential of students who, from Uruguay, already compete in the region’s top university programming circuit.',
+      'competitors.zeballos.role': 'Software Developer at Zureo · Lecturer · Systems Engineering student, ORT',
+      'competitors.zeballos.bio': 'As an ICPC competitor, he’s part of one of the Uruguayan teams that has reached the PDA — the Latin American Continental Final — twice, reflecting a sustained level of algorithmic preparation and collaborative problem-solving.',
+
+      'competitors.teamBC.h3': 'Podium finish at ORT’s Internal Programming Contest',
+      'competitors.teamBC.tag': 'Universidad ORT Uruguay',
+      'competitors.tomasetti.role': 'Student, Universidad ORT Uruguay',
+      'competitors.tomasetti.bio': 'An active competitive programmer. He has taken part in regional training instances, including the Argentine Competitive Programming Association’s training camp, and placed 3rd and 4th with his team at the ORT contest. He represents a pipeline of talent already connecting with the Latin American competitive ecosystem.',
+      'competitors.canedo.role': 'Student, Universidad ORT Uruguay',
+      'competitors.canedo.bio': 'An ICPC Uruguay participant. Together with his team, he’s part of the 3rd- and 4th-place finishes at the ORT contest — a key pipeline for expanding Uruguay’s presence in regional, and eventually world, competitions.',
+      'competitors.zorron.role': 'Student, Universidad ORT Uruguay',
+      'competitors.zorron.bio': 'An ICPC competitor. His team placed 3rd and 4th at the ORT contest, demonstrating a solid foundation in algorithmic problem-solving and performing under competitive pressure.',
+      'competitors.franco.role': 'Junior Developer · Software Engineering student · Entrepreneur',
+      'competitors.franco.bio': 'He’s actively involved in ICPC and ORT’s competitive programming community; together with his team, he placed on the podium — 3rd and 4th — at the university’s internal programming contest.',
+      'competitors.luis.role': 'Software Developer at Tata Consultancy Services · Student, ORT',
+      'competitors.luis.bio': 'An ICPC competitor and part of the new generation of competitive programmers who, with his team, achieved standout finishes — 3rd and 4th place — at the ORT contest.',
+
+      'competitors.teamD.h3': 'Expanding national representation',
+      'competitors.teamD.tag': 'Universidad Católica del Uruguay',
+      'competitors.lavecchia.role': 'Computer Science student, Universidad Católica del Uruguay',
+      'competitors.lavecchia.bio': 'He’s training as a software developer, with experience in .NET, React, and SQL. His involvement matters for ICPC Uruguay to grow beyond a single institution and become a national project that brings together and elevates competitive talent from every university.',
 
       'footer.note': 'Uruguay’s competitive programming community. Not an official ICPC Global site.'
     }
