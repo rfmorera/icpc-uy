@@ -116,8 +116,12 @@
 
       'competitors.teamD.h3': 'Ampliando la representación nacional',
       'competitors.teamD.tag': 'Universidad Católica del Uruguay',
-      'competitors.lavecchia.role': 'Estudiante de Ciencias de la Computación, Universidad Católica del Uruguay',
+      'competitors.lavecchia.role': 'Estudiante de Ciencias de la Computación, Universidad Católica del Uruguay · Finalista Regional Sudamérica Sur ICPC 2025',
       'competitors.lavecchia.bio': 'Se está formando como desarrollador de software, con experiencia en tecnologías .NET, React y SQL. Su incorporación es relevante para que ICPC Uruguay trascienda una única institución y se consolide como un proyecto nacional que reúna y eleve el talento competitivo de todas las universidades.',
+      'competitors.leandro.role': 'Software Engineer · Estudiante, Universidad Católica del Uruguay · Finalista Regional Sudamérica Sur ICPC 2025',
+      'competitors.leandro.bio': 'Software Engineer con experiencia en machine learning, docencia universitaria y desarrollo de software. Empezó a programar a los 13 años a través del desarrollo de videojuegos y luego se expandió a sistemas web e inteligencia artificial; también construyó y escaló un canal de YouTube a más de 80.000 suscriptores mediante experimentación basada en datos y estrategias de crecimiento. Hoy se enfoca en programación competitiva (ICPC) y resolución algorítmica avanzada, con fuerte interés en entornos de ingeniería exigentes y de alto rendimiento. Comenzó sus estudios en 2024.',
+      'competitors.guzman.role': 'Estudiante, Universidad Católica del Uruguay (desde 2024)',
+      'competitors.guzman.bio': 'Comenzó sus estudios en 2024 y se prepara para disputar su primera Regional de ICPC, sumándose al crecimiento de la programación competitiva en la Universidad Católica del Uruguay.',
 
       'footer.note': 'Comunidad de programación competitiva del Uruguay. No es un sitio oficial de ICPC Global.'
     },
@@ -229,8 +233,12 @@
 
       'competitors.teamD.h3': 'Expanding national representation',
       'competitors.teamD.tag': 'Universidad Católica del Uruguay',
-      'competitors.lavecchia.role': 'Computer Science student, Universidad Católica del Uruguay',
+      'competitors.lavecchia.role': 'Computer Science student, Universidad Católica del Uruguay · ICPC South America South Regional Finalist 2025',
       'competitors.lavecchia.bio': 'He’s training as a software developer, with experience in .NET, React, and SQL. His involvement matters for ICPC Uruguay to grow beyond a single institution and become a national project that brings together and elevates competitive talent from every university.',
+      'competitors.leandro.role': 'Software Engineer · Student, Universidad Católica del Uruguay · ICPC South America South Regional Finalist 2025',
+      'competitors.leandro.bio': 'A Software Engineer with experience in machine learning, university-level teaching, and software development. He started programming at 13 through game development and later expanded into web systems and AI, and also built and scaled a YouTube channel to over 80,000 subscribers through data-driven experimentation and growth strategy. He’s now focused on competitive programming (ICPC) and advanced algorithmic problem-solving, with a strong interest in high-performance, rigorous engineering environments. He began his studies in 2024.',
+      'competitors.guzman.role': 'Student, Universidad Católica del Uruguay (since 2024)',
+      'competitors.guzman.bio': 'He began his studies in 2024 and is preparing to compete in his first ICPC Regional, joining the growth of competitive programming at Universidad Católica del Uruguay.',
 
       'footer.note': 'Uruguay’s competitive programming community. Not an official ICPC Global site.'
     }
